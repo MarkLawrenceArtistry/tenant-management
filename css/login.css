@@ -1,0 +1,81 @@
+body.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1a202c;
+    font-family: 'Inter', sans-serif;
+    color: #e2e8f0;
+}
+.login-container {
+    background: #2d3748;
+    padding: 3.5rem 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.login-header {
+    margin-bottom: 2.5rem;
+}
+.login-header .logo {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #f8fafc;
+    margin-bottom: 0.5rem;
+}
+.login-header .company-subtitle {
+    font-size: 1rem;
+    color: #a0aec0;
+}
+.login-form .form-group {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+.login-form label {
+    display: block;
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+    color: #a0aec0;
+}
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.1rem 1.4rem;
+    background: #1a202c;
+    border: 1px solid #4a5568;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    color: #f8fafc;
+}
+.login-form input:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.25);
+}
+.login-form .btn {
+    width: 100%;
+    padding: 1.1rem;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    background: #4299e1;
+    border-radius: 0.6rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.login-form .btn:hover {
+    transform: translateY(-3px);
+}
+.error-message {
+    color: #fc8181;
+    font-size: 0.875rem;
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    display: none;
+}
